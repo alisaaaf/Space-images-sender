@@ -1,0 +1,5 @@
+.idea/
+.images/
+.venv/
+.env
+recipient_of_images.py
