@@ -10,7 +10,7 @@
 - Prise en charge des commandes pour la publication manuelle de messages et d'images.
 
 ## Étapes de lancement du programme :
-1) Клонируйте проект
+1) Clonez le projet :
 ```bash
 git clone https://github.com/alisaaaf/Space-images-sender.git 
 ```
@@ -35,7 +35,7 @@ python message_sender.py
 - /publish_photo — télécharge les images via l'API SpaceX et les publie dans le canal Telegram.
 
 6) Par défaut, la publication est programmée à 07:00. Si vous souhaitez modifier l'heure, éditez la ligne suivante : 
-schedule.every().day.at("00:00").do(publish_photo) à la fin du fichier message_sender
+**schedule.every().day.at("00:00").do(publish_photo)** à la fin du fichier **message_sender**.
 
 ## Remarques
 
